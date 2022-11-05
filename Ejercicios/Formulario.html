@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="Resultado.php" method="post">
+        <p>Nombre: <input type="text" name="nombre" size="70"></p>
+        <p>Apellido: <input type="text" name="apellido" size="70"></p>
+        <p>Apellido 2: <input type="text" name="apellido2" size="70"></p>
+        <p>Fecha de nacimiento: <input type="number" name="nacimiento" min="1800"></p>
+        <input type="color" name="color">
+        <input type="range" min="0" max="100" name="rango">
+
+        <select name="fuenteTexto" >
+            <option>Verdana</option>
+            <option>Arial</option>
+            <option>Times New Roman</option>
+            <option>Calibrí</option>
+            <option>Comic Sans</option>
+            <option>Gotham</option>
+            <option>Garamond</option>
+            <option>Trajan</option>
+            <option>Bodoni</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="checkbox" value="false">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
